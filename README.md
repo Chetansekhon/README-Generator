@@ -1,2 +1,4 @@
-# README-Generator
-Readme creator
+# Candy
+
+## Description
+
