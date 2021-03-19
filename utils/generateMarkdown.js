@@ -24,13 +24,13 @@ ${data.Technology}
 ${data.License}
 
 ## Repository
-${data.Repository}
+[Github Repo Link]${data.Repository})
 
 ## Email
 ${data.Email}
 
-## File
-${data.File}
+## Application Image
+![img](${data.File})
 
 
 `;
