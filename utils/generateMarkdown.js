@@ -24,7 +24,7 @@ ${data.Technology}
 ${data.License}
 
 ## Repository
-[Github Repo Link]${data.Repository})
+[Github Repo Link](${data.Repository})
 
 ## Email
 ${data.Email}
