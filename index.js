@@ -11,7 +11,7 @@ const questions = [
 
       {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Enter the description for your project',
       },
       {
@@ -21,29 +21,50 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'description',
-        message: 'Enter the description for your project',
+        name: 'Usage',
+        message: 'Please Enter Usage Information',
       },
       {
         type: 'input',
-        name: 'description',
-        message: 'Enter the description for your project',
+        name: 'Contribution',
+        message: 'Please Enter Contribution Guidelines',
       },
       {
         type: 'input',
-        name: 'description',
-        message: 'Enter the description for your project',
+        name: 'Test',
+        message: 'Please Enter Testing Information',
       },
       {
         type: 'input',
-        name: 'description',
-        message: 'Enter the description for your project',
+        name: 'Technology',
+        message: 'Please Enter Technologies Used',
+      },
+      {
+        type: 'list',
+        name: 'License',
+        message:"Please select a License ",
+        choices:[
+        "MIT",
+        "Mozilla Public License 2.0",
+        "Apache license 2.0"
+        ]
       },
       {
         type: 'input',
-        name: 'description',
-        message: 'Enter the description for your project',
+        name: 'Repository',
+        message: 'Please input your repository link',
       },
+      {
+        type: 'input',
+        name: 'Email',
+        message: 'Please input your email',
+      },
+      {
+        type: 'input',
+        name: 'File',
+        message: 'Please input your image file link',
+      },
+
 ];
 
 // function to write README file
